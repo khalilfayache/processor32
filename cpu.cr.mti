@@ -1,0 +1,103 @@
+C:/altera/modelsim_ase/examples/instru.vhd {1 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/instru.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity instruction
+-- Compiling architecture arch_ins of instruction
+
+} {} {}} C:/altera/modelsim_ase/examples/mux3.vhd {1 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/mux3.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity mux3
+-- Compiling architecture arch_mux3 of mux3
+
+} {} {}} C:/altera/modelsim_ase/examples/status.vhd {1 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/status.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity status_reg
+-- Compiling architecture arch_status of status_reg
+
+} {} {}} C:/altera/modelsim_ase/examples/D.vhd {1 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/D.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity d
+-- Compiling architecture arch_d of d
+
+} {} {}} C:/altera/modelsim_ase/examples/uc.vhd {1 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/uc.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity uc
+-- Compiling architecture arch_uc of uc
+
+} {} {}} C:/altera/modelsim_ase/examples/ual.vhd {1 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/ual.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Compiling entity ual
+-- Compiling architecture arch_ual of ual
+
+} {} {}} C:/altera/modelsim_ase/examples/architecture.vhd {0 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/architecture.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity cpu
+-- Compiling architecture structurelle of cpu
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(118): (vcom-1136) Unknown identifier "pc_out".
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(118): Type error resolving infix expression "+" as type ieee.std_logic_1164.std_logic_vector.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(124): Symbol "uc" has already been declared in this region.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(124): (vcom-1141) Identifier "uc" does not identify a component declaration.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(126): Cannot read output "ram_out0".
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(128): (vcom-1136) Unknown identifier "sal_val1".
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(128): Signal "s_rx_out" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(128): Signal "op1in" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(129): Signal "s_acc_out" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(129): Signal "s_pc_out" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(129): Signal "op2in" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(130): Signal "op2in" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(130): Signal "op2out" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(131): Signal "op1in" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(131): Signal "op1out" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(132): Symbol "ual" has already been declared in this region.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(132): (vcom-1141) Identifier "ual" does not identify a component declaration.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(133): Symbol "mux3" has already been declared in this region.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(133): (vcom-1141) Identifier "mux3" does not identify a component declaration.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(134): Signal "s_pc_out" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(134): Signal "op2out" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(134): Cannot assign to object "ram_addr0" of mode IN.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(134): Signal "ram_addr0" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(135): Signal "ualin" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(135): Signal "ualin1" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+** Warning: [9] C:/altera/modelsim_ase/examples/architecture.vhd(109): (vcom-1013) Initial value of "s_val1" depends on value of signal "s_val".
+** Error: C:/altera/modelsim_ase/examples/architecture.vhd(142): VHDL Compiler exiting
+
+} {7.0 32.0 33.0 34.0} {}} C:/altera/modelsim_ase/examples/mux2.vhd {1 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/mux2.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture behavior of mux2
+
+} {} {}} C:/altera/modelsim_ase/examples/banc.vhd {0 {vcom -work work -2002 -explicit C:/altera/modelsim_ase/examples/banc.vhd
+Model Technology ModelSim ALTERA vcom 6.4a Compiler 2008.08 Oct 22 2008
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package numeric_std
+-- Compiling entity banc_reg
+-- Compiling architecture arch_banc of banc_reg
+** Error: C:/altera/modelsim_ase/examples/banc.vhd(34): near "sel": syntax error
+** Error: C:/altera/modelsim_ase/examples/banc.vhd(48): Case choice must be a locally static expression.
+** Error: C:/altera/modelsim_ase/examples/banc.vhd(46): Case statement covers only 1 out of 4294967296 cases.
+** Error: C:/altera/modelsim_ase/examples/banc.vhd(60): near "process": expecting "IF"
+** Error: C:/altera/modelsim_ase/examples/banc.vhd(63): Illegal sequential statement.
+** Error: C:/altera/modelsim_ase/examples/banc.vhd(96): near "arch_banc": expecting "PROCESS"
+
+} {10.0 16.0} {}}
